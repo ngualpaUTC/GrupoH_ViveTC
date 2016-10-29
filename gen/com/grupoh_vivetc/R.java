@@ -979,9 +979,10 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int ic_launcher=0x7f020057;
         public static final int logo1=0x7f020058;
+        public static final int quilotoa=0x7f020059;
     }
     public static final class id {
-        public static final int AbsoluteLayout1=0x7f050042;
+        public static final int AbsoluteLayout1=0x7f050043;
         public static final int action_bar=0x7f05001a;
         public static final int action_bar_activity_content=0x7f050015;
         public static final int action_bar_container=0x7f050019;
@@ -1014,7 +1015,7 @@ containing a value of this type.
         public static final int icon=0x7f050028;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050025;
-        public static final int imageView1=0x7f050043;
+        public static final int imageView1=0x7f050042;
         public static final int left_icon=0x7f050031;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050027;
