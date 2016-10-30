@@ -20,7 +20,45 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/quilotoa" />
+	
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="      Provincia de Cotopaxi"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Datos Generales" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="División Política" />
+
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Atractivos Turísticos" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mapa Turísco" />
+
+        </LinearLayout>
+        
     </LinearLayout>
 
 </RelativeLayout>

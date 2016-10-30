@@ -228,7 +228,7 @@ int drawable abc_textfield_searchview_right_holo_light 0x7f020056
 int drawable ic_launcher 0x7f020057
 int drawable logo1 0x7f020058
 int drawable quilotoa 0x7f020059
-int id AbsoluteLayout1 0x7f050043
+int id AbsoluteLayout1 0x7f050048
 int id action_bar 0x7f05001a
 int id action_bar_activity_content 0x7f050015
 int id action_bar_container 0x7f050019
@@ -242,10 +242,14 @@ int id action_menu_presenter 0x7f050017
 int id action_mode_bar 0x7f05002f
 int id action_mode_bar_stub 0x7f05002e
 int id action_mode_close_button 0x7f050022
-int id action_settings 0x7f050045
+int id action_settings 0x7f05004a
 int id activity_chooser_view_content 0x7f050023
 int id always 0x7f05000b
 int id beginning 0x7f050011
+int id button1 0x7f050044
+int id button2 0x7f050045
+int id button3 0x7f050046
+int id button4 0x7f050047
 int id checkbox 0x7f05002b
 int id collapseActionView 0x7f05000d
 int id default_activity_button 0x7f050026
@@ -269,7 +273,7 @@ int id middle 0x7f050012
 int id never 0x7f050009
 int id none 0x7f050010
 int id normal 0x7f050000
-int id progressBar1 0x7f050044
+int id progressBar1 0x7f050049
 int id progress_circular 0x7f050034
 int id progress_horizontal 0x7f050035
 int id radio 0x7f05002d
@@ -292,6 +296,7 @@ int id showTitle 0x7f050006
 int id split_action_bar 0x7f05001c
 int id submit_area 0x7f05003f
 int id tabMode 0x7f050002
+int id textView1 0x7f050043
 int id title 0x7f050029
 int id title_container 0x7f050030
 int id top_action_bar 0x7f05001e
