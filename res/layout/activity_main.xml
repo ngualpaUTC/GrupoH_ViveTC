@@ -31,6 +31,11 @@
                     android:id="@+id/imageView1"
                     style="@style/imagen"
                     android:layout_width="match_parent"
+                    
+				    android:layout_marginLeft="8dp"
+				    android:layout_centerVertical="true"
+				    android:layout_centerHorizontal="true"
+				    android:layout_alignParentLeft="true"
                     android:layout_height="140dp"
                     android:src="@drawable/cotopaxi" />
 

@@ -989,7 +989,7 @@ containing a value of this type.
         public static final int quilotoa=0x7f020060;
     }
     public static final class id {
-        public static final int AbsoluteLayout1=0x7f050049;
+        public static final int RelativeLayout1=0x7f050049;
         public static final int action_bar=0x7f05001a;
         public static final int action_bar_activity_content=0x7f050015;
         public static final int action_bar_container=0x7f050019;

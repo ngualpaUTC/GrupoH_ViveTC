@@ -235,7 +235,7 @@ int drawable mapa 0x7f02005d
 int drawable mundo 0x7f02005e
 int drawable panorama 0x7f02005f
 int drawable quilotoa 0x7f020060
-int id AbsoluteLayout1 0x7f050049
+int id RelativeLayout1 0x7f050049
 int id action_bar 0x7f05001a
 int id action_bar_activity_content 0x7f050015
 int id action_bar_container 0x7f050019
