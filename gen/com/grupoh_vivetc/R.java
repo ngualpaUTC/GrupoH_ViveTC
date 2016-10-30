@@ -1377,6 +1377,7 @@ containing a value of this type.
         public static final int Widget_AppCompat_ProgressBar=0x7f0b000a;
         public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0009;
         public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0022;
+        public static final int texto=0x7f0b0082;
         public static final int titulo=0x7f0b0081;
     }
     public static final class styleable {

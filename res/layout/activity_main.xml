@@ -6,7 +6,9 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.grupoh_vivetc.MainActivity" >
+    tools:context="com.grupoh_vivetc.MainActivity" 
+    android:background="#46ADAC"
+    >
 
     <LinearLayout
         android:layout_width="wrap_content"
@@ -22,11 +24,12 @@
             android:src="@drawable/quilotoa" />
 	
         <TextView
-            style="@style/titulo"
             android:id="@+id/textView1"
+            style="@style/titulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Provincia de Cotopaxi"
+            android:text="Turismo Cotopaxi"
+            android:layout_marginBottom="10dp"
             android:textAppearance="?android:attr/textAppearanceLarge" />
 
         <LinearLayout
@@ -35,31 +38,47 @@
             android:orientation="vertical" >
 
             <Button
+                style="@style/texto"
                 android:id="@+id/button1"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/library"
+                android:background="#3B57F0"
+                android:paddingLeft="10dp"
+                android:layout_marginBottom="10dp"
                 android:text="Datos Generales" />
 
             <Button
+                style="@style/texto"
                 android:id="@+id/button2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/mapa"
+                android:background="#3BC4F0"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="10dp"
                 android:text="División Política" />
 
             <Button
+                style="@style/texto"
                 android:id="@+id/button3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/panorama"
+                android:background="#3BF080"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="10dp"
                 android:text="Atractivos Turísticos" />
 
             <Button
+                style="@style/texto"
                 android:id="@+id/button4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:drawableLeft="@drawable/mundo"
+                android:background="#F0B63B"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="10dp"
                 android:text="Mapa Turísco"/>
 
         </LinearLayout>
