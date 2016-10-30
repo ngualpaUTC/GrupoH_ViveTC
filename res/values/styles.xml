@@ -25,4 +25,8 @@
     <style name="texto">
         <item name="android:textStyle">bold</item>
     </style>
+    
+    <style name="imagen">
+        <item name="android:gravity">center_horizontal</item>
+    </style>
 </resources>

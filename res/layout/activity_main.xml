@@ -17,71 +17,84 @@
         android:layout_alignParentRight="true"
         android:orientation="vertical" >
 
-        <ImageView
-            android:id="@+id/imageView1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drawable/quilotoa" />
-	
-        <TextView
-            android:id="@+id/textView1"
-            style="@style/titulo"
+        <ScrollView
+            android:id="@+id/scrollView1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Turismo Cotopaxi"
-            android:layout_marginBottom="10dp"
-            android:textAppearance="?android:attr/textAppearanceLarge" />
+            android:layout_height="wrap_content" >
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
-
-            <Button
-                style="@style/texto"
-                android:id="@+id/button1"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/library"
-                android:background="#3B57F0"
-                android:paddingLeft="10dp"
-                android:layout_marginBottom="10dp"
-                android:text="Datos Generales" />
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
 
-            <Button
-                style="@style/texto"
-                android:id="@+id/button2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/mapa"
-                android:background="#3BC4F0"
-                android:layout_marginBottom="10dp"
-                android:paddingLeft="10dp"
-                android:text="División Política" />
+                <ImageView
+                    android:id="@+id/imageView1"
+                    style="@style/imagen"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/quilotoa" />
 
-            <Button
-                style="@style/texto"
-                android:id="@+id/button3"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/panorama"
-                android:background="#3BF080"
-                android:layout_marginBottom="10dp"
-                android:paddingLeft="10dp"
-                android:text="Atractivos Turísticos" />
+                <TextView
+                    android:id="@+id/textView1"
+                    style="@style/titulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:text="Turismo Cotopaxi"
+                    android:textAppearance="?android:attr/textAppearanceLarge" />
 
-            <Button
-                style="@style/texto"
-                android:id="@+id/button4"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:drawableLeft="@drawable/mundo"
-                android:background="#F0B63B"
-                android:layout_marginBottom="10dp"
-                android:paddingLeft="10dp"
-                android:text="Mapa Turísco"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
 
-        </LinearLayout>
+                    <Button
+                        android:id="@+id/button1"
+                        style="@style/texto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="#3B57F0"
+                        android:drawableLeft="@drawable/library"
+                        android:paddingLeft="10dp"
+                        android:text="Datos Generales" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        style="@style/texto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="#3BC4F0"
+                        android:drawableLeft="@drawable/mapa"
+                        android:paddingLeft="10dp"
+                        android:text="División Política" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        style="@style/texto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="#3BF080"
+                        android:drawableLeft="@drawable/panorama"
+                        android:paddingLeft="10dp"
+                        android:text="Atractivos Turísticos" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        style="@style/texto"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="10dp"
+                        android:background="#F0B63B"
+                        android:drawableLeft="@drawable/mundo"
+                        android:paddingLeft="10dp"
+                        android:text="Mapa Turísco" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </ScrollView>
         
     </LinearLayout>
 
