@@ -977,9 +977,15 @@ containing a value of this type.
         public static final int abc_textfield_searchview_holo_light=0x7f020054;
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
-        public static final int ic_launcher=0x7f020057;
-        public static final int logo1=0x7f020058;
-        public static final int quilotoa=0x7f020059;
+        public static final int folder=0x7f020057;
+        public static final int folder2=0x7f020058;
+        public static final int ic_launcher=0x7f020059;
+        public static final int library=0x7f02005a;
+        public static final int logo1=0x7f02005b;
+        public static final int mapa=0x7f02005c;
+        public static final int mundo=0x7f02005d;
+        public static final int panorama=0x7f02005e;
+        public static final int quilotoa=0x7f02005f;
     }
     public static final class id {
         public static final int AbsoluteLayout1=0x7f050048;
@@ -1371,6 +1377,7 @@ containing a value of this type.
         public static final int Widget_AppCompat_ProgressBar=0x7f0b000a;
         public static final int Widget_AppCompat_ProgressBar_Horizontal=0x7f0b0009;
         public static final int Widget_AppCompat_Spinner_DropDown_ActionBar=0x7f0b0022;
+        public static final int titulo=0x7f0b0081;
     }
     public static final class styleable {
         /**  ============================================ 

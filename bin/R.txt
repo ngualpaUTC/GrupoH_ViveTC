@@ -225,9 +225,15 @@ int drawable abc_textfield_searchview_holo_dark 0x7f020053
 int drawable abc_textfield_searchview_holo_light 0x7f020054
 int drawable abc_textfield_searchview_right_holo_dark 0x7f020055
 int drawable abc_textfield_searchview_right_holo_light 0x7f020056
-int drawable ic_launcher 0x7f020057
-int drawable logo1 0x7f020058
-int drawable quilotoa 0x7f020059
+int drawable folder 0x7f020057
+int drawable folder2 0x7f020058
+int drawable ic_launcher 0x7f020059
+int drawable library 0x7f02005a
+int drawable logo1 0x7f02005b
+int drawable mapa 0x7f02005c
+int drawable mundo 0x7f02005d
+int drawable panorama 0x7f02005e
+int drawable quilotoa 0x7f02005f
 int id AbsoluteLayout1 0x7f050048
 int id action_bar 0x7f05001a
 int id action_bar_activity_content 0x7f050015
@@ -478,6 +484,7 @@ int style Widget_AppCompat_PopupMenu 0x7f0b0029
 int style Widget_AppCompat_ProgressBar 0x7f0b000a
 int style Widget_AppCompat_ProgressBar_Horizontal 0x7f0b0009
 int style Widget_AppCompat_Spinner_DropDown_ActionBar 0x7f0b0022
+int style titulo 0x7f0b0081
 int[] styleable ActionBar { 0x7f010021, 0x7f010022, 0x7f010023, 0x7f010024, 0x7f010025, 0x7f010026, 0x7f010027, 0x7f010028, 0x7f010029, 0x7f01002a, 0x7f01002b, 0x7f01002c, 0x7f01002d, 0x7f01002e, 0x7f01002f, 0x7f010030, 0x7f010031, 0x7f010032, 0x7f010033 }
 int styleable ActionBar_background 10
 int styleable ActionBar_backgroundSplit 12
