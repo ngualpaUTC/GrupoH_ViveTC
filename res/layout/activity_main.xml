@@ -27,17 +27,53 @@
                 android:layout_height="match_parent"
                 android:orientation="vertical" >
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" 
+                    android:layout_marginBottom="10dp">
+
+                    <Button
+                        android:id="@+id/button6"
+                        style="@style/texto"
+                        android:paddingLeft="12dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#f5cba7"
+                        android:drawableLeft="@drawable/menu"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        style="@style/texto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.45"
+                        android:background="#f5cba7"
+                        android:text="Explorar"
+                        android:textSize="16dp" />
+
+                    <Button
+                        android:id="@+id/button5"
+                        style="@style/texto"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="#f5cba7"
+                        android:paddingLeft="12dp"
+                        android:drawableLeft="@drawable/lupa"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
                 <ImageView
                     android:id="@+id/imageView1"
                     style="@style/imagen"
                     android:layout_width="match_parent"
-                    
-				    android:layout_marginLeft="8dp"
-				    android:layout_centerVertical="true"
-				    android:layout_centerHorizontal="true"
-				    android:layout_alignParentLeft="true"
                     android:layout_height="140dp"
-                    android:src="@drawable/cotopaxi" />
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="8dp"
+                    android:src="@drawable/quilotoa" />
 
                 <TextView
                     android:id="@+id/textView1"
