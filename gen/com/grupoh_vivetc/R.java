@@ -978,17 +978,27 @@ containing a value of this type.
         public static final int abc_textfield_searchview_right_holo_dark=0x7f020055;
         public static final int abc_textfield_searchview_right_holo_light=0x7f020056;
         public static final int cotopaxi=0x7f020057;
-        public static final int folder=0x7f020058;
-        public static final int folder2=0x7f020059;
-        public static final int ic_launcher=0x7f02005a;
-        public static final int library=0x7f02005b;
-        public static final int logo1=0x7f02005c;
-        public static final int lupa=0x7f02005d;
-        public static final int mapa=0x7f02005e;
-        public static final int menu=0x7f02005f;
-        public static final int mundo=0x7f020060;
-        public static final int panorama=0x7f020061;
-        public static final int quilotoa=0x7f020062;
+        public static final int cotopaxi2=0x7f020058;
+        public static final int folder=0x7f020059;
+        public static final int folder2=0x7f02005a;
+        public static final int ic_launcher=0x7f02005b;
+        public static final int library=0x7f02005c;
+        public static final int library1=0x7f02005d;
+        public static final int logo1=0x7f02005e;
+        public static final int lupa=0x7f02005f;
+        public static final int lupa1=0x7f020060;
+        public static final int mapa=0x7f020061;
+        public static final int mapa1=0x7f020062;
+        public static final int menu=0x7f020063;
+        public static final int menu1=0x7f020064;
+        public static final int mundo=0x7f020065;
+        public static final int mundo1=0x7f020066;
+        public static final int panorama=0x7f020067;
+        public static final int panorama1=0x7f020068;
+        public static final int pujili=0x7f020069;
+        public static final int quilotoa=0x7f02006a;
+        public static final int salcedo=0x7f02006b;
+        public static final int saquisili=0x7f02006c;
     }
     public static final class id {
         public static final int RelativeLayout1=0x7f05004c;
@@ -1005,7 +1015,7 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f05002f;
         public static final int action_mode_bar_stub=0x7f05002e;
         public static final int action_mode_close_button=0x7f050022;
-        public static final int action_settings=0x7f05004e;
+        public static final int action_settings=0x7f05004f;
         public static final int activity_chooser_view_content=0x7f050023;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1031,7 +1041,8 @@ containing a value of this type.
         public static final int icon=0x7f050028;
         public static final int ifRoom=0x7f05000a;
         public static final int image=0x7f050025;
-        public static final int imageView1=0x7f050046;
+        public static final int imageSwitcher=0x7f050046;
+        public static final int imageView1=0x7f05004d;
         public static final int left_icon=0x7f050031;
         public static final int listMode=0x7f050001;
         public static final int list_item=0x7f050027;
@@ -1039,7 +1050,7 @@ containing a value of this type.
         public static final int never=0x7f050009;
         public static final int none=0x7f050010;
         public static final int normal=0x7f050000;
-        public static final int progressBar1=0x7f05004d;
+        public static final int progressBar1=0x7f05004e;
         public static final int progress_circular=0x7f050034;
         public static final int progress_horizontal=0x7f050035;
         public static final int radio=0x7f05002d;

@@ -29,17 +29,17 @@
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" 
-                    android:layout_marginBottom="10dp">
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp" >
 
                     <Button
                         android:id="@+id/button6"
                         style="@style/texto"
-                        android:paddingLeft="12dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="#f5cba7"
-                        android:drawableLeft="@drawable/menu"
+                        android:background="#F1948A"
+                        android:drawableLeft="@drawable/menu1"
+                        android:paddingLeft="12dp"
                         android:textSize="16dp" />
 
                     <Button
@@ -48,7 +48,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.45"
-                        android:background="#f5cba7"
+                        android:background="#F1948A"
                         android:text="Explorar"
                         android:textSize="16dp" />
 
@@ -57,23 +57,23 @@
                         style="@style/texto"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="#f5cba7"
+                        android:background="#F1948A"
+                        android:drawableLeft="@drawable/lupa1"
                         android:paddingLeft="12dp"
-                        android:drawableLeft="@drawable/lupa"
                         android:textSize="16sp" />
                 </LinearLayout>
 
-                <ImageView
-                    android:id="@+id/imageView1"
+                <ImageSwitcher
+                    android:id="@+id/imageSwitcher"
                     style="@style/imagen"
                     android:layout_width="match_parent"
                     android:layout_height="140dp"
                     android:layout_alignParentLeft="true"
                     android:layout_centerHorizontal="true"
                     android:layout_centerVertical="true"
-                    android:layout_marginBottom="10dp"
                     android:layout_marginLeft="8dp"
-                    android:src="@drawable/quilotoa" />
+                    android:layout_weight="0.57" >
+                </ImageSwitcher>
 
                 <TextView
                     android:id="@+id/textView1"
@@ -95,8 +95,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:background="#3B57F0"
-                        android:drawableLeft="@drawable/library"
+                        android:background="#3498DB"
+                        android:drawableLeft="@drawable/library1"
                         android:paddingLeft="10dp"
                         android:text="Datos Generales" />
 
@@ -106,8 +106,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:background="#3BC4F0"
-                        android:drawableLeft="@drawable/mapa"
+                        android:background="#3498DB"
+                        android:drawableLeft="@drawable/mapa1"
                         android:paddingLeft="10dp"
                         android:text="División Política" />
 
@@ -117,8 +117,8 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:background="#3BF080"
-                        android:drawableLeft="@drawable/panorama"
+                        android:background="#3498DB"
+                        android:drawableLeft="@drawable/panorama1"
                         android:paddingLeft="10dp"
                         android:text="Atractivos Turísticos" />
 
@@ -128,13 +128,13 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:background="#F0B63B"
-                        android:drawableLeft="@drawable/mundo"
+                        android:background="#3498DB"
+                        android:drawableLeft="@drawable/mundo1"
                         android:paddingLeft="10dp"
                         android:text="Mapa Turísco" />
                 </LinearLayout>
-
             </LinearLayout>
+
         </ScrollView>
         
     </LinearLayout>
