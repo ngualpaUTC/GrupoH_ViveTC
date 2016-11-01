@@ -7,8 +7,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.grupoh_vivetc.MainActivity" 
-    android:background="#D0D3D4"
-    >
+    android:background="#f4f6f7">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -37,7 +36,7 @@
                         style="@style/texto"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="#F1948A"
+                        android:background="#7f8c8d"
                         android:drawableLeft="@drawable/menu1"
                         android:paddingLeft="12dp"
                         android:textSize="16dp" />
@@ -48,7 +47,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_weight="0.45"
-                        android:background="#F1948A"
+                        android:background="#7f8c8d"
                         android:text="Explorar"
                         android:textSize="16dp" />
 
@@ -57,7 +56,7 @@
                         style="@style/texto"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:background="#F1948A"
+                        android:background="#7f8c8d"
                         android:drawableLeft="@drawable/lupa1"
                         android:paddingLeft="12dp"
                         android:textSize="16sp" />
@@ -95,10 +94,10 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:background="#3498DB"
+                        android:background="#3B57F0"
                         android:drawableLeft="@drawable/library1"
                         android:paddingLeft="10dp"
-                        android:text="Datos Generales" />
+                        android:text="Datos Generales"/>
 
                     <Button
                         android:id="@+id/button2"
@@ -106,7 +105,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:background="#3498DB"
+                        android:background="#3BC4F0"
                         android:drawableLeft="@drawable/mapa1"
                         android:paddingLeft="10dp"
                         android:text="División Política" />
@@ -117,7 +116,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:background="#3498DB"
+                        android:background="#3BF080"
                         android:drawableLeft="@drawable/panorama1"
                         android:paddingLeft="10dp"
                         android:text="Atractivos Turísticos" />
@@ -128,7 +127,7 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginBottom="10dp"
-                        android:background="#3498DB"
+                        android:background="#F0B63B"
                         android:drawableLeft="@drawable/mundo1"
                         android:paddingLeft="10dp"
                         android:text="Mapa Turísco" />

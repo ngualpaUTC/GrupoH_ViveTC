@@ -15,9 +15,10 @@ import android.widget.ImageView;
 import android.widget.ViewSwitcher.ViewFactory;
 
 public class MainActivity extends ActionBarActivity {
-
+	
+	//codigo para crear slider
 	private ImageSwitcher imageSwitcher;
-	 
+	//aqui se hace un vector de imagenes
     private int[] gallery = { R.drawable.cotopaxi, R.drawable.cotopaxi2, R.drawable.quilotoa,
             R.drawable.saquisili, R.drawable.salcedo, R.drawable.pujili};
  
@@ -41,7 +42,6 @@ public class MainActivity extends ActionBarActivity {
         });
  
         // Set animations
-        // https://danielme.com/2013/08/18/diseno-android-transiciones-entre-activities/
         Animation fadeIn = AnimationUtils.loadAnimation(this, R.anim.abc_fade_in);
         Animation fadeOut = AnimationUtils.loadAnimation(this, R.anim.abc_fade_out);
         imageSwitcher.setInAnimation(fadeIn);
@@ -50,7 +50,7 @@ public class MainActivity extends ActionBarActivity {
         startSlider();
 		
 	}
-
+	//codigo para los ciclos del slider
 	public void startSlider() {
         timer = new Timer();
         timer.scheduleAtFixedRate(new TimerTask() {
@@ -69,7 +69,7 @@ public class MainActivity extends ActionBarActivity {
                 });
             }
  
-        }, 1000, DURATION);
+        }, 1000, DURATION);//duracion de cada imagen
     }
 
  // Stops the slider when the Activity is going into the background
